@@ -16,7 +16,6 @@ main{
         margin: auto;  
         overflow: auto;
         text-align: center;
-        background-image: url(imagenes/gorillazfoto1.jpg);
     }
         header img{
             float: left;
@@ -51,15 +50,22 @@ main{
                 }
     .sec1{
         padding: 40px 10px 180px 10px;
+        background-image: url(../imagenes/gorillazfoto1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 10px;
     }
 
         .sec1 div{
             margin: 30px;
             padding: 15px;
             text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            
         }
             .sec1 div p{
                 text-align: justify;
+                color: white;
                 margin: 20px;
             }
                 main .sec1 div a{
