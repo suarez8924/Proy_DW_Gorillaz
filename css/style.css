@@ -45,8 +45,14 @@ main{
             }
                 nav ul li a{
                     color: white;
+                    font-weight: bold;
                     text-decoration: none;
                     text-transform: uppercase;
+                }
+                nav ul li a:hover{
+                    font-weight: bold;
+                    text-decoration: underline;
+                    color: rgb(99, 35, 99);
                 }
     .sec1{
         padding: 40px 10px 180px 10px;
